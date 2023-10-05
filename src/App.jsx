@@ -16,7 +16,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 function App() {
 
-  const [active, setActive] = useState(0);
+  // const [active, setActive] = useState(0);
   const RefCarousel = useRef(null);
 
   return (
@@ -383,6 +383,29 @@ function App() {
 
             </div> */}
           </div>
+        </div>
+      </div>
+
+      <div className='pt-[20px] flex gap-x-[80px] justify-center'>
+        <div className='relative'>
+          <div className='bg-[#00c691] rounded-full h-[450px] w-[450px] absolute top-[30px] left-[40px] z-[-1]' />
+          <img src='//masterstudy.stylemixthemes.com/tech-elementor/wp-content/uploads/sites/39/revslider/slider-1/Изображение_31.png' className=' shrink-0 h-[713px] w-[460px] ' />
+        </div>
+        <div>
+          <h1 className='text-[46px] text-[#273044] leading-[57px] font-[700]'>Learning <span className='text-[#00c691]'>anytime</span><br/> from anywhere</h1>
+          <p className='mt-[30px] w-[472px] text-[#273044] leading-[30px] text-[16px]'>Increase the mobility level with MasterStudy LMS App. Take your courses in your pocket and access them whenever you want without any limits. Make your learning more engaging and productive using modern LMS app. </p>
+          <div className='mt-[30px] flex gap-x-[20px]'>
+            <img src='//stylemixthemes.com/masterstudy/tech/wp-content/uploads/sites/21/2021/02/Изображение_23.png' className='h-[50px] w-[167px]'/>
+            <img src='//stylemixthemes.com/masterstudy/tech/wp-content/uploads/sites/21/2021/02/Изображение_22.png' className='h-[50px] w-[167px]'/>
+          </div>
+        </div>
+      </div>
+
+      <div className='relative w-full h-[393px] flex justify-center items-center bg-cover mt-[-50px] z-10 bg-[url("https://masterstudy.stylemixthemes.com/tech-elementor/wp-content/uploads/sites/39/2023/05/group-1915x404.jpg")] '>
+        <div className='p-[10px] text-white text-center flex flex-col items-center justify-center gap-y-[30px]'>
+          <h2 className='w-[460px] text-[36px] leading-[46px] font-[700]'>It’s time to <span className='text-[#00c691]'>start</span> investing in yourself</h2>
+          <p className='text-[18px] mt-[5px] font-[400] leading-[30px] w-[580px]'>Online courses open the opportunity for learning to almost anyone, regardless of their scheduling commitments.</p>
+          <button className='bg-[#00c691] rounded-[5px] h-[55px] w-[186px] flex items-center justify-center text-[15px] font-[600]'>GET STARTED</button>
         </div>
       </div>
 
